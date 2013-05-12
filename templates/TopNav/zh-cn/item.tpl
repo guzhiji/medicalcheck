@@ -1,0 +1,1 @@
+<li><a href="?module={$module}" data-role="button" data-theme="{$theme}">{$text}</a></li>
