@@ -144,7 +144,7 @@ if (isset($_GET['mode']) && $_GET['mode'] == 'dialog') {
                 'boxes' => array(
                     array('TopNav', array('mode' => 'report')),
                     array('UnqualifiedStats', NULL),
-                    array('qualifiedList', NULL)
+                    array('QualifiedList', NULL)
                 )
             ),
             'report/qualified/person' => array(

@@ -37,7 +37,8 @@ function GetSysResPath($resname, $path) {
     $sysrespath = $path . '/' . $resname;
     if (is_file($syspath . $sysrespath))
         return $sysrespath;
-    return '';
+    throw new Exception('resource file was not found:' . $syspath . $sysrespath);
+    //return '';
 }
 
 /**
